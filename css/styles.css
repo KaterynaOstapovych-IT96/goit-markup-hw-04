@@ -146,8 +146,8 @@ input:focus {
   transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-list-link:hover,
-.nav-list-link:focus,
+.nav-list-link .current:hover,
+.nav-list-link .current:focus,
 .nav-list-link .current {
   color: #404bbf;
 }
