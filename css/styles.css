@@ -146,15 +146,15 @@ input:focus {
   transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-menu-link:hover,
-.nav-menu-link:focus,
-.nav-menu-link.is-active {
+.nav-list-link:hover,
+.nav-list-link:focus,
+.nav-list-link.current {
   color: #404bbf;
 }
 
-.nav-menu-link:hover::after,
-.nav-menu-link:focus::after,
-.nav-menu-link.is-active::after {
+.nav-list-link:hover::after,
+.nav-list-link:focus::after,
+.nav-list-link.current::after {
   transform: scaleX(1);
 }
 
