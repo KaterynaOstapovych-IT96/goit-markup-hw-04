@@ -148,13 +148,13 @@ input:focus {
 
 .nav-list-link:hover,
 .nav-list-link:focus,
-.nav-list-link.current {
+.nav-list-link .current {
   color: #404bbf;
 }
 
 .nav-list-link:hover::after,
 .nav-list-link:focus::after,
-.nav-list-link.current::after {
+.nav-list-link .current::after {
   transform: scaleX(1);
 }
 
