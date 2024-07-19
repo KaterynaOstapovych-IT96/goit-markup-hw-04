@@ -145,13 +145,11 @@ input:focus {
   left: 0;
   transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.current {
-  text-decoration: underline;
-}
 
-.current:hover,
-.current:focus,
-.current {
+
+.nav-menu-link:hover,
+.nav-menu-link:focus,
+.nav-menu-link.current {
   color: #404bbf;
 }
 
@@ -524,3 +522,4 @@ input:focus {
 .footer-social-link:focus {
   background-color: #31d0aa;
 }
+
