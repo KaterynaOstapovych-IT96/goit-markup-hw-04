@@ -148,15 +148,19 @@ input:focus {
 
 
 .nav-menu-link:hover,
-.nav-menu-link:focus,
-.nav-menu-link.current {
+.nav-menu-link:focus,{
   color: #404bbf;
 }
 
+
+.nav-menu-link.current {
+  color: #404bbf;
+}
 .nav-list-link:hover::after,
 .nav-list-link:focus::after,
-.nav-list-link .current::after {
+.nav-list-link.current::after {
   transform: scaleX(1);
+  background-color: #404bbf;
 }
 
 .contacts {
